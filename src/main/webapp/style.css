@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  height: 60px;
+}
+
+nav .logo {
+  font-family: "Londrina Shadow", cursive;
+}
+
+.home section:first-child,
+.register .registerForm {
+  height: calc(100vh - 60px);
+}
+
+.register .registerForm {
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
